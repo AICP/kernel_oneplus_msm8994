@@ -1,7 +1,7 @@
 VERSION = 3
 PATCHLEVEL = 10
 SUBLEVEL = 107
-EXTRAVERSION =
+EXTRAVERSION =-IceCold
 NAME = TOSSUG Baby Fish
 
 # *DOCUMENTATION*
@@ -375,7 +375,6 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -Werror-implicit-function-declaration \
 		   -Wno-format-security \
 		   -fno-delete-null-pointer-checks \
-		   -mcpu=cortex-a57.cortex-a53 -mtune=cortex-a57.cortex-a53 \
 		   -std=gnu89 -Wno-unused-const-variable -Wno-misleading-indentation \
 	           -Wno-memset-transposed-args  -Wno-bool-compare -Wno-logical-not-parentheses \
 		   -Wno-switch-bool
