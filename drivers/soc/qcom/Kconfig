@@ -629,11 +629,6 @@ config MSM_PERFORMANCE
 	  It ensures that no more than a user specified number of CPUs stay
 	  online at any given point in time.
 
-config ONEPLUS_HCUBE
-	tristate "Core control module by OnePlus"
-	help
-	  Add support for OnePlus modified Qualcomm core control module
-
 config MSM_PERFORMANCE_HOTPLUG_ON
         bool "Hotplug functionality through msm_performance turned on"
         depends on MSM_PERFORMANCE
